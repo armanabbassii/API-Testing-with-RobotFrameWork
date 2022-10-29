@@ -12,3 +12,4 @@ Get_content-type
     log to console ${response.status_code}
     log to console ${response.content}
     log to console ${response.headers}
+5
