@@ -1,0 +1,8 @@
+installation needs
+  python
+  pycharm IDE
+install following libraries using CMD
+  robot framework
+  requests
+  robotframework-requests
+  robotframework-jsonlibrary
