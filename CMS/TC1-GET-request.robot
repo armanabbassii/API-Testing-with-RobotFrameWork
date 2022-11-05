@@ -1,14 +1,15 @@
 *** Settings ***
-Library  RequestsLibrary
+Library    RequestsLibrary
 
 *** Variables ***
 ${base_url}     https://rad-sandbox.pod.ir
-${entity}       content-types
+${contentTypeUniqueId}       contentTypeUniqueId
+
 *** Test Cases ***
 #name of testcase
-Get_content-type
-    Create Session    mysession    ${base_url}
-    ${response}=      Get Request    mysession    /api/core/${entity}
+/api/core/content-types/{contentTypeUniqueId}
+    Create Session    myssion    ${base_url}
+    ${response}  =    get request    myssion    /api/core/content-types/${contentTypeUniqueId}
     log to console ${response.status_code}
     log to console ${response.content}
     log to console ${response.headers}
