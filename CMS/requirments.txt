@@ -8,6 +8,3 @@ install following libraries using CMD
   robotframework-jsonlibrary
   pip install jsonpath_rw_ext
   pip install jsonpath_rw
-check
-double check2
-doubleckeck3
