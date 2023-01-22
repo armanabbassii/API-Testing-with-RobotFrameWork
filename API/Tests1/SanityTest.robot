@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation Robot Framework Demo
+Documentation       First API call
 
 Library     Collections
 Library     String
